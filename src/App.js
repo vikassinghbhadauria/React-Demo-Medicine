@@ -4,6 +4,7 @@ import Header from './components/Layout/Header';
 import Medicine from './components/Medicine/Medicine';
 import Cart from './components/Cart/Cart'
 import CartProvider from './store/CartProvider';
+
 function App() {
 
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -23,7 +24,8 @@ function App() {
       <main>
         <Medicine />
       </main>
-    </CartProvider>
+      <p>Developed by Vikas Singh Bhadauria</p>
+      </CartProvider>
   );
 }
 
