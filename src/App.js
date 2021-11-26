@@ -24,7 +24,7 @@ function App() {
       <main>
         <Medicine />
       </main>
-      <p style={{color:'#00FEFE'}}>Developed by Vikas Singh Bhadauria</p>
+      <p style={{color:'#808080'}}>Developed by Vikas Singh Bhadauria</p>
       </CartProvider>
   );
 }
